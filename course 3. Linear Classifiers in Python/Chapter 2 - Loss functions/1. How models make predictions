@@ -1,0 +1,11 @@
+Which classifiers make predictions based on the sign (positive or negative) of the raw model output?
+
+Possible Answers
+
+1. Logistic regression only
+
+2. Linear SVMs only
+
+3. Neither
+
+4. Both logistic regression and Linear SVMs (O)
