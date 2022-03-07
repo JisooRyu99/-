@@ -2,5 +2,5 @@
 
 
 ### 가짜연구소
-https://pseudo-lab.com/
+https://pseudo-lab.com/   
 https://pseudolab.github.io/about
