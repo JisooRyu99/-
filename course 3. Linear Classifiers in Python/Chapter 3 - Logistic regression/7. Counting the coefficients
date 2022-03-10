@@ -1,0 +1,7 @@
+
+If you fit a logistic regression model on a classification problem with 3 classes and 100 features, how many coefficients would you have, including intercepts?
+
+answer = 303
+
+100 coeffiecients + 1 intercept for eatch binary classifier
+101 * 3 = 303
