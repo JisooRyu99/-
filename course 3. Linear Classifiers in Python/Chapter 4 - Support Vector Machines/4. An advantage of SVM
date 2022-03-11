@@ -1,0 +1,6 @@
+Which of the following is an advantage of SVMs over logistic regression? (3)
+
+1. They naturally outputs meaningful probabilities.
+2. They can be used with kernels.
+3. hey are computationally efficient with kernels.
+4. They learn sigmoidal decision boundaries.
