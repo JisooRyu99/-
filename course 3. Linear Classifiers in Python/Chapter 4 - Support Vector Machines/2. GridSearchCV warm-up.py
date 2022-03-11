@@ -1,0 +1,16 @@
+'''
+In the video we saw that increasing the RBF kernel hyperparameter gamma increases training accuracy. 
+In this exercise we'll search for the gamma that maximizes cross-validation accuracy using scikit-learn's GridSearchCV. 
+A binary version of the handwritten digits dataset, in which you're just trying to predict whether or not an image is a "2", is already loaded into the variables X and y.
+'''
+
+# Instantiate an RBF SVM
+svm = SVC()
+
+# Instantiate the GridSearchCV object and run the search
+parameters = {'gamma':[0.00001, 0.0001, 0.001, 0.01, 0.1]}
+searcher = GridSearchCV(svm, param_grid=parameters)
+searcher.fit(X_train, y_train)
+
+# Report the best parameters
+print("Best CV params", searcher.best_params_)
