@@ -1,0 +1,14 @@
+Great! A classification problem involves predicting the category a given data point belongs to out of a finite set of possible categories. 
+Depending on how many possible categories there are to predict, a classification problem can be either binary or multi-class. 
+Let's do another quick refresher here. 
+Your job is to pick the binary classification problem out of the following list of supervised learning problems.
+
+Possible Answers = 1
+
+1. Predicting whether a given image contains a cat.
+
+2. Predicting the emotional valence of a sentence (Valence can be positive, negative, or neutral).
+
+3. Recommending the most tax-efficient strategy for tax filing in an automated accounting system.
+
+4. Given a list of symptoms, generating a rank-ordered list of most likely diseases.
