@@ -1,0 +1,13 @@
+XGBoost is a powerful library that scales very well to many samples and works for a variety of supervised learning problems. 
+That said, as Sergey described in the video, you shouldn't always pick it as your default machine learning library when starting a new project, since there are some situations in which it is not the best option. In this exercise, your job is to consider the below examples and select the one which would be the best use of XGBoost.
+
+
+Possible Answers = 4
+
+1. Visualizing the similarity between stocks by comparing the time series of their historical prices relative to each other.
+
+2. Predicting whether a person will develop cancer using genetic data with millions of genes, 23 examples of genomes of people that didn't develop cancer, 3 genomes of people who wound up getting cancer.
+
+3. Clustering documents into topics based on the terms used in them.
+
+4. Predicting the likelihood that a given user will click an ad from a very large clickstream log with millions of users and their web interactions.
