@@ -1,0 +1,12 @@
+Given below are 4 potential machine learning problems you might encounter in the wild. Pick the one that is a classification problem.
+
+answer = 3
+
+
+1. Given past performance of stocks and various other financial data, predicting the exact price of a given stock (Google) tomorrow.
+
+2. Given a large dataset of user behaviors on a website, generating an informative segmentation of the users based on their behaviors.
+
+3. Predicting whether a given user will click on an ad given the ad content and metadata associated with the user.
+
+4. Given a user's past behavior on a video platform, presenting him/her with a series of recommended videos to watch next.
