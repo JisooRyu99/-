@@ -1,0 +1,12 @@
+Here are 4 potential machine learning problems you might encounter in the wild. 
+Pick the one that is a clear example of a regression problem.
+
+Possible Answers = 4
+
+1. Recommending a restaurant to a user given their past history of restaurant visits and reviews for a dining aggregator app.
+
+2. Predicting which of several thousand diseases a given person is most likely to have given their symptoms.
+
+3. Tagging an email as spam/not spam based on its content and metadata (sender, time sent, etc.).
+
+4. Predicting the expected payout of an auto insurance claim given claim properties (car, accident type, driver prior history, etc.).
