@@ -9,7 +9,7 @@ One simple way of doing this involves counting the number of times each feature 
 housing_dmatrix = xgb.DMatrix(X,y)
 
 # Create the parameter dictionary: params
-params = {"objective":"reg:linear","max_depth"=4}
+params = {"objective":"reg:linear","max_depth":4}
 
 # Train the model: xg_reg
 xg_reg = xgb.train(dtrain=housing_dmatrix, params=params, num_boost_round=10)
