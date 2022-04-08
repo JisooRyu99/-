@@ -1,0 +1,11 @@
+What advantage does feature selection have over feature extraction?
+
+Possible Answers = 3
+
+1. Feature selection allows you to do a stronger reduction in the number of dimensions.
+
+2. Less information is lost during feature selection compared to feature extraction.
+
+3. The selected features remain unchanged, and are therefore easy to interpret.
+
+4. Models will never overfit to a sub-selected dataset.
