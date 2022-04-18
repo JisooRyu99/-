@@ -1,0 +1,11 @@
+Now that you've learned when it is appropriate to standardize your data, which of these scenarios would you NOT want to standardize?
+
+Possible Answers = 4
+
+1. A column you want to use for modeling has extremely high variance.
+
+2. You have a dataset with several continuous columns on different scales and you'd like to use a linear model to train the data.
+
+3. The models you're working with use some sort of distance metric in a linear space, like the Euclidean metric.
+
+4. Your dataset is comprised of categorical data.
