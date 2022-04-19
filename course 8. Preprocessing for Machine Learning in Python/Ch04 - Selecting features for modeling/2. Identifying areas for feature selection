@@ -1,0 +1,20 @@
+Take an exploratory look at the post-feature engineering hiking dataset. Which of the following columns is a good candidate for feature selection?
+
+Possible Answers = 4
+
+1. Length
+
+2. Difficulty
+
+3. Accessible
+
+4. All of the above
+
+5. None of the above
+
+
+Index(['Accessible', 'Difficulty', 'Length', 'Limited_Access', 'Location',
+       'Name', 'Other_Details', 'Park_Name', 'Prop_ID', 'lat', 'lon',
+       'Length_extract', 'accessible_enc', '', 'Easy', 'Easy ',
+       'Easy/Moderate', 'Moderate', 'Moderate/Difficult', 'Various'],
+      dtype='object')
