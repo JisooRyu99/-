@@ -1,0 +1,19 @@
+'''
+When dealing with time series data, it's useful to visualize model predictions on top of the "actual" values that are used to test the model.
+
+In this exercise, after splitting the data (stored in the variables X and y) into training and test sets, you'll build a model and then visualize the model's predictions on top of the testing data in order to estimate the model's performance.
+'''
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+
+# Split our data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, 
+                                                    train_size=.8, shuffle=False, random_state=1)
+
+# Fit our model and generate predictions
+model = Ridge()
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+score = r2_score(y_test, predictions)
+print(score)
