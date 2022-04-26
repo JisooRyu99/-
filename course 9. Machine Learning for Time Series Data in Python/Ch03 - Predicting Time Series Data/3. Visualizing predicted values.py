@@ -17,3 +17,10 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 score = r2_score(y_test, predictions)
 print(score)
+
+
+# Visualize our predictions along with the "true" values, and print the score
+fig, ax = plt.subplots(figsize=(15, 5))
+ax.plot(y_test, color='k', lw=3)
+ax.plot(predictions, color='r', lw=2)
+plt.show()
