@@ -1,0 +1,11 @@
+Which of the following are useful text preprocessing steps?
+
+Possible Answers = 2
+
+1. Stems, spelling corrections, lowercase.
+
+2. Lemmatization, lowercasing, removing unwanted tokens.
+
+3. Removing stop words, leaving in capital words.
+
+4. Strip stop words, word endings and digits.
