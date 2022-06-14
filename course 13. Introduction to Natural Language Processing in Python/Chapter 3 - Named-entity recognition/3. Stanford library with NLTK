@@ -1,0 +1,11 @@
+When using the Stanford library with NLTK, what is needed to get started?
+
+Possible Answers = 4
+
+1. A normal installation of NLTK.
+
+2. An installation of the Stanford Java Library.
+
+3. Both NLTK and an installation of the Stanford Java Library.
+
+4. NLTK, the Stanford Java Libraries and some environment variables to help with integration.
