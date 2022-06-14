@@ -1,0 +1,11 @@
+Which are the extra categories that spacy uses compared to nltk in its named-entity recognition?
+
+Possible Answers = 3
+
+1. GPE, PERSON, MONEY
+
+2. ORGANIZATION, WORKOFART
+
+3. NORP, CARDINAL, MONEY, WORKOFART, LANGUAGE, EVENT
+
+4. EVENT_LOCATION, FIGURE
