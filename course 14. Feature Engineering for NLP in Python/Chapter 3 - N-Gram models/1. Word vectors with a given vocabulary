@@ -1,0 +1,13 @@
+You have been given a corpus of documents and you have computed the vocabulary of the corpus to be the following: V: a, an, and, but, can, come, evening, forever, go, i, men, may, on, the, women
+
+Which of the following corresponds to the bag of words vector for the document "men may come and men may go but i go on forever"?
+
+Possible Answers = 1
+
+1. (0, 0, 1, 1, 0, 1, 0, 1, 2, 1, 2, 2, 1, 0, 0)
+
+2. (0, 1, 0, 1, 1, 1, 2, 0, 2, 1, 0, 0, 0, 2, 0)
+
+3. (2, 1, 0, 0, 2, 1, 0, 0, 0, 1)
+
+4. (0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 1)
