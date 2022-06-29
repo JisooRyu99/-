@@ -5,7 +5,7 @@ In a later lesson, we will use these vectors to generate recommendations of simi
 '''
 
 # Import TfidfVectorizer
-from sklearn import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Create TfidfVectorizer object
 vectorizer = TfidfVectorizer()
